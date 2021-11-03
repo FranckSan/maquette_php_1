@@ -1,0 +1,154 @@
+body {
+    font-family: Century Gothic;
+    height: 100vh;
+    background-color: #ECF2FF;
+    padding: 0;
+    margin: 0;
+}
+main{
+    height: 100%;
+}
+.top {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 10%;
+    background-color: rgba(0, 0, 255, 0.589);
+    /* position: -webkit-sticky;
+    top: 0;
+    position: sticky; */
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-left: 2vw;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 0 0 3px black;
+    /* border: 1px solid black; */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 17px;
+    font-weight: bold;
+    color: #407BFF;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 7px 24px;
+    text-align: center;
+    border: 2px solid #407BFF;
+    cursor: pointer;
+}
+button:hover{
+    
+    color: #fff;
+    background-color: #407BFF;
+    border: 2px solid #FFF;
+}
+
+
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 2%;
+    /* overflow-y: scroll; */
+}
+table{
+    width: 80%;
+    height: 10vh;
+    border: 2px solid #7336FF;
+    border-collapse: collapse;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 1%;
+    font-size: larger;
+}
+th{
+    height: 50px;
+    color: ivory;
+    background-color: #5c19fa;
+}
+td, th{
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: ivory;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    /* position: static;
+    bottom: 0; */
+    height: 35%;
+}
+#modifier{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    width: 50%;
+    padding: 4px 2px 4px 1.4%;
+    border: 1px solid #7336FF;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(192, 192, 192, 0.94);
+}
+.btn_top{
+    display: flex;
+    height: 65%;
+    /* border: 1px solid black; */
+}
+.btn_middle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+}
+label{
+    position: relative;
+    text-indent: 3px;
+}
+.radio{
+    position: initial;
+}
+
+span{
+    position: absolute;
+    font-weight: bold;
+    font-size: small;
+    top: 0;
+    right: 0;
+    color: red;
+} 
+
+.form_input{
+    width: 90%;
+    height: 20%;
+    border: 2px solid #407BFF;
+    background-color: ivory;
+    border-radius: 17px;
+    outline: none;
+    padding-left: 10px;
+}

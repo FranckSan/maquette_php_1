@@ -1,0 +1,187 @@
+body{
+    font-family: Century Gothic;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+
+}
+
+
+
+
+main{
+    display: grid;
+    grid-template-columns: 45% 54%;
+    grid-template-rows: 100vh;
+}
+
+img{
+    width: 88%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left{
+    display: flex;
+    justify-content: center;
+    /* width: 53%;
+    height: 100%; */
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    border: 1px solid #7336FF;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(192, 192, 192, 0.94);
+}
+h4{
+    font-size: 24px;
+    font-weight: normal;
+}
+.form_middle{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+#msg_err{
+    position: absolute;
+    top: 0px;
+    font-weight: bold;
+    font-size: medium;
+    color: blue;
+}
+
+input{
+    width: 95%;
+    height: 38%;
+    border: 3px solid #7336FF;
+    background-color: #ECF2FF;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 4px;
+    outline: none;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+    height: 30%;
+    text-indent: 3px;
+    line-height: 29px;
+    
+}
+span{
+    position: absolute;
+    font-weight: bold;
+    font-size: x-small;
+    top: 0;
+    right: 0;
+    color: red;
+}
+
+#pass{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-size: 17px;
+    color: #fff;
+    background-color: #407BFF;
+    border-radius: 20px;
+    padding: 7px 24px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #407BFF;
+    cursor: pointer;
+}
+#lien{
+    color: #7336FF;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form_bottom{
+    margin-bottom: 30px;
+}
+button:hover{
+    color: #407BFF;
+    background-color: #FFF;
+    border: 2px solid #407BFF;
+}
+
+input:focus{
+    border: 3px solid rgb(0, 32, 96);
+}
+
+#lien:hover{
+    color: red;
+}
+
+
+
+
+/* Media querry */
+
+@media screen and (max-width: 770px) {
+    
+    form{
+        width: 95%;
+    }
+}

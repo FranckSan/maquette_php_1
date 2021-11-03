@@ -1,0 +1,50 @@
+body{
+    font-family: Century Gothic;
+    height: 100vh;
+    background-color: #ECF2FF;
+    padding: 0;
+    margin: 0;
+    background: url(test.jpg);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 10%;
+    background-color: rgba(0, 0, 255, 0.489);
+}
+.left{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-left: 2vw;
+}
+h1{
+    margin: 0;
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 0 0 3px black;
+    /* border: 1px solid black; */
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: 17px;
+    font-weight: bold;
+    color: #407BFF;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 7px 24px;
+    text-align: center;
+    border: 2px solid #407BFF;
+    cursor: pointer;
+}
+button:hover{
+    
+    color: #fff;
+    background-color: #407BFF;
+    border: 2px solid #FFF;
+}
